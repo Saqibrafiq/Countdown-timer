@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Countdown</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1><span>Countdown</span></h1>
+        <div class="countdown">
+            <div id="hours">
+                <input id="hour" type="number" max="60" min="0" value="0" class="time">
+            </div>
+            <div id="mintute">
+                <input id="minute" type="number" max="60" min="0" value="0" class="time">
+            </div>
+            <div id="second">
+                <input id="seconds" type="number" max="60" min="0" value="0" class="time">
+            </div>
+        <button class="button" id="start" class="btn">Start</button>
+        <button class="button" id="reset" class="btn">Reset</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
